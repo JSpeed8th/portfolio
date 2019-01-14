@@ -1,5 +1,7 @@
 body {
   background-color: yellow;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
 }
 
 .App {
@@ -12,6 +14,7 @@ body {
   height: 100vh;
   float: right;
   transition: 0.5s;
+  overflow: hidden;
 }
 
 .view:hover {
@@ -28,4 +31,22 @@ body {
     width: 85vw;
     float: none;
   }
+}
+
+.page-title {
+  font-size: 2.5vw;
+  transform: rotate(90deg);
+  float: left;
+  position: absolute;
+  top: 45vh;
+  width: 17vw;
+  margin-left: -6vw;
+  transition: 0.2s;
+}
+
+.view:hover .page-title,
+.home-view:hover .page-title {
+  /* display: none; */
+  top: -25vh;
+  transition: 0.2s;
 }

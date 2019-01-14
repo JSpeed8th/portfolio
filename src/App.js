@@ -15,10 +15,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        {/* <Home collapseListener={this.collapseHandler} /> */}
-        <About collapseListener={this.collapseHandler} />
-        <Projects collapseListener={this.collapseHandler} />
         <Contact collapseListener={this.collapseHandler} />
+        <Projects collapseListener={this.collapseHandler} />
+        <About collapseListener={this.collapseHandler} />
+        {/* <Home collapseListener={this.collapseHandler} /> */}
       </div>
     );
   }
