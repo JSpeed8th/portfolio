@@ -1,32 +1,31 @@
+body {
+  background-color: yellow;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.view {
+  display: inline-block;
+  width: 5vw;
+  height: 100vh;
+  float: right;
+  transition: 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.view:hover {
+  width: 85vw;
+  animation-name: expand;
+  transition: 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes expand {
   from {
-    transform: rotate(0deg);
+    width: 50vw;
   }
   to {
-    transform: rotate(360deg);
+    width: 85vw;
+    float: none;
   }
 }

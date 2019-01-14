@@ -1,8 +1,9 @@
 import React from "react";
 import "./about.css";
+import "../App.css";
 
-const about = () => {
-  return <div />;
+const about = props => {
+  return <div className="about view" />;
 };
 
 export default about;
