@@ -8,11 +8,12 @@ const projects = props => {
   const videos = [{ path: bakeryRecording }];
   const videoArray = videos.map((video, index) => {
     return (
-      <video autoplay muted controls key={index}>
+      <video autoPlay muted controls key={index}>
         <source src={video.path} type="video/mp4" />
       </video>
     );
   });
+
   return (
     <div className="projects view">
       <img className="background-image" src={backgroundimage} />
