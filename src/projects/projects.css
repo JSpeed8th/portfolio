@@ -1,3 +1,13 @@
 .projects {
   /* background-color: black; */
 }
+
+.project-container {
+  position: absolute;
+  top: 5vh;
+  left: 17vw;
+  background-color: rgba(0, 0, 0, 0.68);
+  width: 70vw;
+  height: 90vh;
+  overflow: scroll;
+}

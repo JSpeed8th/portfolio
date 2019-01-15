@@ -8,6 +8,7 @@ const projects = props => {
     <div className="projects view">
       <img className="background-image" src={backgroundimage} />
       <h1 className="page-title">Projects</h1>
+      <div className="project-container" />
     </div>
   );
 };
