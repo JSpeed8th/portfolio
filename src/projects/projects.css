@@ -3,6 +3,9 @@
 }
 
 .project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   position: absolute;
   top: 5vh;
   left: 17vw;
@@ -10,4 +13,12 @@
   width: 70vw;
   height: 90vh;
   overflow: scroll;
+  padding: 40px 20px;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+video {
+  width: 30vw;
+  border-radius: 10px;
 }
