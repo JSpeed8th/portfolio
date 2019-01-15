@@ -13,14 +13,29 @@ const about = props => {
         <img
           src={portrait}
           style={{
-            height: "45vh",
-            width: "25vw",
-            borderRadius: "150px",
+            height: "100%",
+            width: "100%",
+            borderRadius: "10px 0px 0px 10px",
             backgroundPosition: "center",
-            backgroundSize: "200% 100%"
+            backgroundSize: "200% 100%",
+            clipPath: "polygon(0 0, 100% 0%, 75% 100%, 0% 100%)"
           }}
         />
-        <p>lorem ipsem</p>
+        <p>
+          Thank you for taking the time to visit my site! I was born in
+          Philadelphia, PA and bred in South Jersey. I have a passion for visual
+          art. So much so, that I studied Graphic Design at Rowan University in
+          Glassboro, NJ. I always had an affinity for technology; specifically,
+          mobile technology. I was infactuated with the sleek and friendly Palm
+          Pre device that my older cousin owned way back when. A bit later, the
+          original iPhone was revealed during a commercial break between the
+          Academy Awards. From that very moment, my imagination piqued. I had to
+          be apart of that world. How could anyone make something like this? I
+          delved head first into learning about tech. Years later, here I am
+          studying to become a software engineer. I'm grateful for my wonderful
+          family and amazing fiance, Kate, who helped me get to this very
+          moment!
+        </p>
       </div>
     </div>
   );
