@@ -1,11 +1,17 @@
 import React from "react";
 import "./home.css";
 import "../App.css";
+import backgroundimage from "../images/home.jpg";
 
 const home = props => {
   return (
-    <div className="view home">
-      <h1 className="page-title">home</h1>
+    <div className="home-view">
+      <img className="home-image" src={backgroundimage} />
+      <h1 className="page-title">Home</h1>
+      <div className="home-title">
+        <h1>Jordan Speed</h1>
+        <p>full stack web developer</p>
+      </div>
     </div>
   );
 };

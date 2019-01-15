@@ -1,11 +1,13 @@
 import React from "react";
 import "./projects.css";
 import "../App.css";
+import backgroundimage from "../images/projects.jpg";
 
 const projects = props => {
   return (
     <div className="projects view">
-      <h1 className="page-title">projects</h1>
+      <img className="background-image" src={backgroundimage} />
+      <h1 className="page-title">Projects</h1>
     </div>
   );
 };

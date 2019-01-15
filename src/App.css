@@ -1,48 +1,63 @@
 body {
-  background-color: yellow;
+  background-image: url("./images/home.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(85, 85, 85);
   overflow: hidden;
   font-family: "Raleway", sans-serif;
 }
 
-.App {
-  text-align: center;
+@keyframes slideup {
+  from {
+    top: 300px;
+    opacity: 0;
+  }
+  to {
+    top: 205px;
+    opacity: 1;
+  }
 }
 
 .view {
-  display: inline-block;
-  width: 5vw;
+  width: 3vw;
   height: 100vh;
   float: right;
   transition: 0.5s;
   overflow: hidden;
-  margin: 0px;
 }
 
 .view:hover {
-  width: 85vw;
+  width: 91vw;
   animation-name: expand;
   transition: 0.5s;
 }
 
 @keyframes expand {
   from {
-    width: 50vw;
+    width: 3vw;
   }
   to {
-    width: 85vw;
-    float: none;
+    width: 91vw;
   }
 }
 
+/* --------------------------HOME VIEW------------------------------ */
+
 .page-title {
-  font-size: 2.5vw;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  letter-spacing: 3px;
   transform: rotate(270deg);
   float: left;
   position: absolute;
-  top: 45vh;
+  top: 50vh;
+  text-align: center;
   width: 17vw;
-  margin-left: -6vw;
+  margin-left: -7vw;
   transition: 0.2s;
+  color: white;
 }
 
 .view:hover .page-title,
@@ -51,3 +66,45 @@ body {
   top: -25vh;
   transition: 0.2s;
 }
+
+.home-view:hover .home-title {
+  position: absolute;
+  text-align: center;
+  top: 22vh;
+  left: 25vw;
+  font-size: 2vw;
+  word-spacing: 5px;
+  letter-spacing: 11px;
+  color: #3c4f64;
+  animation-name: slideup;
+  animation-duration: 0.5s;
+}
+
+@keyframes slideup {
+  from {
+    top: 350px;
+    opacity: 1;
+  }
+  to {
+    top: 22vh;
+    opacity: 1;
+  }
+}
+
+.background-image {
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(20px);
+  transition: 0.15s;
+}
+
+.view .background-image:hover {
+  transition: 0.12s;
+  filter: none;
+}
+
+/* .background-image: hover; */

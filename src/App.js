@@ -18,7 +18,7 @@ class App extends Component {
         <Contact collapseListener={this.collapseHandler} />
         <Projects collapseListener={this.collapseHandler} />
         <About collapseListener={this.collapseHandler} />
-        {/* <Home collapseListener={this.collapseHandler} /> */}
+        <Home collapseListener={this.collapseHandler} />
       </div>
     );
   }
