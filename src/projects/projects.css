@@ -10,7 +10,7 @@
   top: 5vh;
   left: 17vw; */
   margin: 0 auto;
-  margin-top: -85vh;
+  margin-top: -82vh;
   background-color: rgba(0, 0, 0, 0.68);
   width: 70vw;
   /* height: 90vh; */
@@ -28,7 +28,7 @@
 }
 
 video {
-  width: 30vw;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -39,6 +39,21 @@ video {
   }
   to {
     opacity: 1;
-    margin-top: -85vh;
+    margin-top: -82vh;
   }
+}
+
+.links {
+  text-align: left;
+}
+
+.links a {
+  color: white;
+}
+
+.individual-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  color: white;
 }
