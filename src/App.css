@@ -57,6 +57,7 @@ body {
   width: 17vw;
   margin-left: -7vw;
   transition: 0.2s;
+  font-weight: bold;
   color: white;
 }
 
@@ -99,8 +100,8 @@ body {
   height: 100vh;
   width: 100vw;
   /* Blur Is detrimental to performance */
-  /* filter: blur(1px); */
-  /* transition: 0.15s; */
+  /* filter: blur(20px);
+  transition: 0.15s; */
 }
 
 .view .background-image:hover {

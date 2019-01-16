@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMedia from "../socialmedia/socialmedia";
 import "./about.css";
 import "../App.css";
 import backgroundimage from "../images/about_me.jpg";
@@ -8,19 +9,10 @@ const about = props => {
   return (
     <div className="about view">
       <img className="background-image" src={backgroundimage} />
+      <SocialMedia />
       <h1 className="page-title">About</h1>
       <div className="about-modal">
-        <img
-          src={portrait}
-          style={{
-            height: "100%",
-            width: "100%",
-            borderRadius: "10px 0px 0px 10px",
-            backgroundPosition: "center",
-            backgroundSize: "200% 100%",
-            clipPath: "polygon(0 0, 100% 0%, 75% 100%, 0% 100%)"
-          }}
-        />
+        <img src={portrait} />
         <p>
           Thank you for taking the time to visit my site! I was born in
           Philadelphia, PA and bred in South Jersey. I have a passion for visual
