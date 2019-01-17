@@ -1,14 +1,15 @@
 .icons ion-icon {
   display: inline-block;
+  margin: 0 3px;
   font-size: 3.5vw;
-  transition: 0.5s;
+  transition: 0.3s;
   color: white;
 }
 
 .icons ion-icon:hover {
   color: #364358;
-  font-size: 3.2vw;
-  transition: 0.5s;
+  font-size: 3.3vw;
+  transition: 0.3s;
 }
 
 .icons {

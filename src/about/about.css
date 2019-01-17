@@ -1,6 +1,10 @@
+.about {
+  background-color: black;
+}
+
 .about-modal {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.7fr 3fr;
   width: 65vw;
   margin: 0 13vw;
   margin-top: 20vh;
@@ -8,16 +12,18 @@
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.796);
   cursor: default;
+  opacity: 1;
 }
 
 .about:hover .about-modal {
   animation-name: modalslide;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
+  animation-duration: 1s;
   opacity: 1;
 }
 
 .about-modal img {
+  /* background-size: 100% 120%; */
   height: 100%;
   width: 100%;
   border-radius: 10px 0px 0px 10px;

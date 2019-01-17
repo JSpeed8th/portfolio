@@ -3,7 +3,7 @@ import SocialMedia from "../socialmedia/socialmedia";
 import "./about.css";
 import "../App.css";
 import backgroundimage from "../images/about_me.jpg";
-import portrait from "../images/portrait2.jpg";
+import portrait from "../images/portrait1.jpg";
 
 const about = props => {
   return (
