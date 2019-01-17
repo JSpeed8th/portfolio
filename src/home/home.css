@@ -2,11 +2,44 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 0px;
+  height: 100vh;
   width: 100%;
+  margin: 0;
   /* filter: blur(25px); */
 }
 
-.home-title h1 {
+.home-title h1,
+.home-title p {
   font-family: "Major Mono Display", monospace;
+  line-height: 2;
+  margin: 0;
+}
+
+.home-title {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 2vw;
+  word-spacing: 5px;
+  letter-spacing: 11px;
+  color: #3c4f64;
+  visibility: hidden;
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 20vh;
+    opacity: 1;
+  }
+  to {
+    margin-top: 10vh;
+    opacity: 1;
+  }
+}
+
+.home-view:hover .home-title {
+  visibility: visible;
+  animation-name: slideup;
+  animation-duration: 0.5s;
 }

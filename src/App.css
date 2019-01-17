@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Raleway", sans-serif;
   background-image: url("./images/home.jpg");
-  background-size: 100vw 100vh;
+  background-size: 91vw 100vh;
   overflow: hidden;
 }
 
@@ -63,31 +63,6 @@ body {
   /* display: none; */
   top: -25vh;
   transition: 0.2s;
-}
-
-.home-view:hover .home-title {
-  position: absolute;
-  text-align: center;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2vw;
-  word-spacing: 5px;
-  letter-spacing: 11px;
-  color: #3c4f64;
-  animation-name: slideup;
-  animation-duration: 0.5s;
-}
-
-@keyframes slideup {
-  from {
-    top: 50%;
-    opacity: 1;
-  }
-  to {
-    top: 35%;
-    opacity: 1;
-  }
 }
 
 .background-image {

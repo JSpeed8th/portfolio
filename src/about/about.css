@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1.7fr 3fr;
   width: 65vw;
+  height: 49vh;
   margin: 0 13vw;
   margin-top: 15vh;
   opacity: 0;
@@ -13,6 +14,7 @@
   background-color: rgba(0, 0, 0, 0.796);
   cursor: default;
   opacity: 1;
+  overflow: scroll;
 }
 
 .about:hover .about-modal {
