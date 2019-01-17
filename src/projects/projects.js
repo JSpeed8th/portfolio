@@ -5,6 +5,7 @@ import "../App.css";
 import backgroundimage from "../images/landing5.jpg";
 import bakeryRecording from "../screenRecording/jordansBakery.mov";
 import pokemonRecording from "../screenRecording/pokemon.mov";
+import tastebudsRecording from "../screenRecording/tastebuds.mov";
 
 const projects = props => {
   const videos = [
@@ -23,6 +24,14 @@ const projects = props => {
       title: "Pokedex App",
       description:
         "Pokedex app showcases individual Pokemon’s statistics upon user request. This project is focused on client side technology."
+    },
+    {
+      path: tastebudsRecording,
+      github: "https://github.com/JSpeed8th/Pokemon-Group-Gym",
+      livelink: "https://jordansrumblr.herokuapp.com ",
+      title: "Taste Buds",
+      description:
+        "A Tumblr clone geared towards bakers so that they can share recipes and comment on one another's work. This project is written in rails."
     }
   ];
   const videoArray = videos.map((video, index) => {
@@ -30,7 +39,7 @@ const projects = props => {
       <div className="individual-project">
         <div className="individual-project__left">
           <p className="project-title">{video.title}</p>
-          <video autoPlay muted loop>
+          <video muted controls>
             <source src={video.path} type="video/mp4" />
           </video>
           <div className="links">
@@ -38,7 +47,9 @@ const projects = props => {
               GitHub
             </a>
             <span> / </span>
-            <a href={video.livelink}>Live Link </a>
+            <a href={video.livelink} target="_blank" rel="noopener noreferrer">
+              Live Link{" "}
+            </a>
           </div>
         </div>
         <div className="individual-project__right">

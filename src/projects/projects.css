@@ -4,9 +4,9 @@
   grid-gap: 10px;
   margin: 0 auto;
   margin-right: 14vw;
-  /* margin-top: 5vh; */
   background-color: rgba(0, 0, 0, 0.796);
   width: 75vw;
+  height: 60vh;
   overflow: scroll;
   padding: 40px 30px;
   border-radius: 10px;
@@ -33,7 +33,6 @@ video {
   }
   to {
     opacity: 1;
-    margin-top: 15vh;
   }
 }
 
