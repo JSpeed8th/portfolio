@@ -13,6 +13,10 @@ const socialmedia = () => {
     {
       link: "https://www.instagram.com/art_angel_ichi/",
       name: "logo-instagram"
+    },
+    {
+      link: "mailto:jspeed8th@gmail.com",
+      name: "mail"
     }
   ];
 

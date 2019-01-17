@@ -7,7 +7,7 @@ const contact = props => {
   return (
     <div className="contact view">
       <img className="background-image" src={backgroundimage} />
-      <h1 className="page-title">Contact</h1>
+      <h1 className="page-title">Skills</h1>
     </div>
   );
 };
