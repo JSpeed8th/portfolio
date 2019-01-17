@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./Normalize.css";
 import Home from "./home/home";
 import About from "./about/about";
 import Projects from "./projects/projects";

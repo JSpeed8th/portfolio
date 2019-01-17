@@ -1,16 +1,20 @@
-.about {
-  /* background-color: black; */
+.about-modal {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 65vw;
+  margin: 0 13vw;
+  margin-top: 20vh;
+  opacity: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.796);
+  cursor: default;
 }
 
-.about-modal {
-  margin: -75vh auto;
-  width: 63vw;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.68);
-  display: grid;
-  grid-template-columns: 40% 60%;
-  cursor: default;
-  opacity: 0;
+.about:hover .about-modal {
+  animation-name: modalslide;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  opacity: 1;
 }
 
 .about-modal img {
@@ -18,15 +22,7 @@
   width: 100%;
   border-radius: 10px 0px 0px 10px;
   background-position: center;
-  background-size: 200% 100%;
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-}
-
-.about:hover .about-modal {
-  /* background-color: rgba(0, 0, 0, 0.68); */
-  animation-name: modalslide;
-  animation-duration: 2s;
-  opacity: 1;
 }
 
 @keyframes modalslide {
@@ -41,8 +37,8 @@
 .about-modal p {
   color: white;
   line-height: 1.5;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   text-align: justify;
   padding: 10px;
-  font-weight: bold;
+  font-weight: bolder;
 }

@@ -1,24 +1,22 @@
-.projects {
-  /* background-color: black; */
-}
-
 .project-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   margin: 0 auto;
-  margin-top: -82vh;
-  background-color: rgba(0, 0, 0, 0.68);
+  margin-right: 14vw;
+  margin-top: 15vh;
+  background-color: rgba(0, 0, 0, 0.796);
   width: 75vw;
   overflow: scroll;
-  padding: 40px 20px;
+  padding: 40px 30px;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
 }
 
 /* When User Hovers Over Project View Animation is Triggered and Opacity becomes 1 */
 .projects:hover .project-container {
   animation-name: appear-and-slide-up;
+  animation-fill-mode: forwards;
   animation-duration: 0.5s;
   opacity: 1;
 }
@@ -31,11 +29,11 @@ video {
 @keyframes appear-and-slide-up {
   from {
     opacity: 0;
-    margin-top: -50vh;
+    margin-top: 20vh;
   }
   to {
     opacity: 1;
-    margin-top: -82vh;
+    margin-top: 15vh;
   }
 }
 
@@ -59,6 +57,10 @@ video {
   /* font-size: 1.5vw; */
 }
 
+.project-title {
+  font-weight: bolder;
+}
+
 .project-title,
 .individual-project__right p {
   font-size: 1.2vw;
@@ -70,4 +72,6 @@ video {
 
 .individual-project__right p {
   margin-top: 7vh;
+  max-height: 17vh;
+  overflow: auto;
 }

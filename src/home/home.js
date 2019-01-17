@@ -7,7 +7,7 @@ import backgroundimage from "../images/home.jpg";
 const home = props => {
   return (
     <div className="home-view">
-      {/* <SocialMedia /> */}
+      <SocialMedia />
       <img className="home-image" src={backgroundimage} />
       <h1 className="page-title">Home</h1>
       <div className="home-title">

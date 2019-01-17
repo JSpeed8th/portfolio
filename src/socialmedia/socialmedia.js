@@ -16,6 +16,7 @@ const socialmedia = () => {
     }
   ];
 
+  // Mapping JSX To Each Item Within Array
   const newArray = socialMediaArray.map((platform, index) => {
     return (
       <a
@@ -29,6 +30,7 @@ const socialmedia = () => {
     );
   });
 
+  // Returning New Array With Mapped JSX
   return <div className="icons hover-effect">{newArray}</div>;
 };
 

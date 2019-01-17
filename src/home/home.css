@@ -3,6 +3,10 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 0px;
-  width: 100vw;
+  width: 100%;
   /* filter: blur(25px); */
+}
+
+.home-title h1 {
+  font-family: "Major Mono Display", monospace;
 }

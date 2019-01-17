@@ -22,7 +22,7 @@ const projects = props => {
       livelink: "https://jspeed8th.github.io/Pokemon-Group-Gym/",
       title: "Pokedex App",
       description:
-        'An application for, "jordan\'s bakery & company", with features including user sign-in, crud functionality, and the capability to order baked-goods.'
+        "Pokedex app showcases individual Pokemon’s statistics upon user request. This project is focused on client side technology."
     }
   ];
   const videoArray = videos.map((video, index) => {
@@ -50,10 +50,14 @@ const projects = props => {
 
   return (
     <div className="projects view">
-      <img className="background-image" src={backgroundimage} />
-      <SocialMedia />
-      <h1 className="page-title">Projects</h1>
-      <div className="project-container">{videoArray}</div>
+      <div
+        className="background-image"
+        style={{ backgroundImage: `url(${backgroundimage})` }}
+      >
+        <SocialMedia />
+        <h1 className="page-title">Projects</h1>
+        <div className="project-container">{videoArray}</div>
+      </div>
     </div>
   );
 };
