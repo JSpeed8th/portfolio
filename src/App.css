@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Raleway", sans-serif;
   background-image: url("./images/home.jpg");
+  background-repeat: no-repeat;
   background-size: 91vw 100vh;
   overflow: hidden;
 }
@@ -22,14 +23,14 @@ body {
   width: 3vw;
   height: 100vh;
   float: right;
-  transition: 0.5s;
+  transition: 0.4s;
   overflow: hidden;
 }
 
 .view:hover {
   width: 91vw;
   animation-name: expand;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 @keyframes expand {
@@ -48,21 +49,11 @@ body {
   font-size: 1.5vw;
   letter-spacing: 5px;
   transform: rotate(270deg);
-  /* float: left; */
-  position: absolute;
-  top: 50vh;
   text-align: center;
   width: 17vw;
   margin-left: -7vw;
   transition: 0.2s;
   color: white;
-}
-
-.view:hover .page-title,
-.home-view:hover .page-title {
-  /* display: none; */
-  top: -25vh;
-  transition: 0.2s;
 }
 
 .background-image {
