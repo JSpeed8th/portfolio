@@ -5,7 +5,6 @@
   height: 100vh;
   width: 100%;
   margin: 0;
-  /* filter: blur(25px); */
 }
 
 .home-title h1,
@@ -18,27 +17,38 @@
 .home-title {
   display: block;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 7vh;
+  width: 75vw;
   text-align: center;
   font-size: 2vw;
   word-spacing: 5px;
   letter-spacing: 11px;
   color: #3c4f64;
-  visibility: hidden;
+  transition: 0.15s;
+  opacity: 0;
+  /* visibility: hidden; */
+}
+
+.home-view .page-title {
+  position: absolute;
+  top: 15vh;
+  left: 0;
 }
 
 @keyframes slideup {
   from {
     margin-top: 20vh;
-    opacity: 1;
+    opacity: 0;
   }
   to {
-    margin-top: 10vh;
+    margin-top: 7vh;
     opacity: 1;
+    visibility: visible;
   }
 }
 
 .home-view:hover .home-title {
+  opacity: 1;
   visibility: visible;
   animation-name: slideup;
   animation-duration: 0.5s;
