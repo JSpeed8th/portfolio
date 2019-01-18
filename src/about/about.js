@@ -2,7 +2,7 @@ import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
 import "./about.css";
 import "../App.css";
-import backgroundimage from "../images/portrait4.jpg";
+import backgroundimage from "../images/about.jpg";
 
 const about = props => {
   return (

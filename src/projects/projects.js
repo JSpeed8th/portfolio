@@ -2,7 +2,7 @@ import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
 import "./projects.css";
 import "../App.css";
-import backgroundimage from "../images/about_me.jpg";
+import backgroundimage from "../images/projects.jpg";
 import bakeryRecording from "../screenRecording/jordansBakery.mov";
 import pokemonRecording from "../screenRecording/pokemon.mov";
 import tastebudsRecording from "../screenRecording/tastebuds.mov";

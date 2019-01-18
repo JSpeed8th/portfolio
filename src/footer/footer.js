@@ -3,7 +3,11 @@ import "./footer.css";
 import ReactLogo from "../images/react-logo.png";
 
 const reactFooter = () => {
-  return <img className="react-logo" src={ReactLogo} />;
+  return (
+    <footer>
+      <img className="react-logo" src={ReactLogo} alt="React Logo" />;
+    </footer>
+  );
 };
 
 export default reactFooter;
