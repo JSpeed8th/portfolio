@@ -4,6 +4,7 @@
   grid-gap: 10px;
   margin: 0 auto;
   margin-right: 14vw;
+  margin-top: -5vh;
   background-color: rgba(0, 0, 0, 0.796);
   width: 75vw;
   height: 60vh;
@@ -53,7 +54,6 @@ video {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   color: white;
-  /* font-size: 1.5vw; */
 }
 
 .project-title {
@@ -61,12 +61,18 @@ video {
 }
 
 .project-title,
+.links,
 .individual-project__right p {
   font-size: 1.2vw;
 }
 .project-title,
 .links {
   text-align: center;
+}
+
+.links a:hover {
+  color: #3c4f64;
+  transition: 0.2s;
 }
 
 .individual-project__right p {

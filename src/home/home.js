@@ -1,5 +1,6 @@
 import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
+import ReactFooter from "../footer/footer";
 import "./home.css";
 import "../App.css";
 
@@ -14,6 +15,7 @@ const home = props => {
           <p>full stack web developer</p>
         </div>
       </div>
+      <ReactFooter />
     </div>
   );
 };

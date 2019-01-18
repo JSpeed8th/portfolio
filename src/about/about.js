@@ -2,8 +2,7 @@ import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
 import "./about.css";
 import "../App.css";
-import backgroundimage from "../images/about_me.jpg";
-import portrait from "../images/portrait1.jpg";
+import backgroundimage from "../images/portrait4.jpg";
 
 const about = props => {
   return (
@@ -15,7 +14,6 @@ const about = props => {
         <SocialMedia />
         <h1 className="page-title">About</h1>
         <div className="about-modal">
-          <img src={portrait} alt="" />
           <p>
             Thank you for taking the time to visit my site! I was born in
             Philadelphia, PA and bred in South Jersey. I have a passion for

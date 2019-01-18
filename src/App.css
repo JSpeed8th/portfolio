@@ -21,7 +21,6 @@ body {
 
 .view {
   width: 3vw;
-  height: 100vh;
   float: right;
   transition: 0.4s;
   overflow: hidden;
