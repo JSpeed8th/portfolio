@@ -1,19 +1,27 @@
 .icons ion-icon {
   display: inline-block;
   height: 100px;
-  margin: 0 3px;
   font-size: 3vw;
-  transition: 0.3s;
+  transition: 0.2s;
   color: white;
+  opacity: 0;
 }
 
 .icons ion-icon:hover {
   color: #364358;
-  font-size: 2.7vw;
+  font-size: 2.5vw;
   transition: 0.3s;
 }
 
+.view:hover ion-icon,
+.home-view:hover ion-icon {
+  opacity: 1;
+}
+
 .icons {
-  text-align: right;
-  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  margin-left: 70vw;
+  width: 19vw;
 }
