@@ -50,7 +50,7 @@
     margin-top: 5vh;
   }
   .about-modal p {
-    background: -webkit-linear-gradient(#3c4f64, grey);
+    background: -webkit-linear-gradient(#3c4f64, grey, grey, white, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

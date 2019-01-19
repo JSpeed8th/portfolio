@@ -4,7 +4,21 @@ import "./contact.css";
 import "../App.css";
 import backgroundimage from "../images/contact.jpg";
 
-const contact = props => {
+const contact = () => {
+  const skillarray = [
+    "html-logo.jpg",
+    "css-logo.jpg",
+    "sass-logo.jpg",
+    "javascript-logo.jpg",
+    "react-logo.jpg",
+    "rails-logo.png",
+    "ruby-logo.png"
+  ];
+
+  const newArray = skillarray.map((skill, index) => {
+    return <img src={require("../images/SkillLanguages/" + skill)} alt="" />;
+  });
+
   return (
     <div className="contact view">
       <div
@@ -13,6 +27,17 @@ const contact = props => {
       >
         <SocialMedia />
         <h1 className="page-title">Skills</h1>
+        <div className="skill-modal">
+          {newArray}
+
+          <a
+            href="https://docs.google.com/document/d/1yyWKDvS-OqJKOqnuZJ874OAvofttr_whVkmjGPjGrr8/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="resume" />
+          </a>
+        </div>
       </div>
     </div>
   );

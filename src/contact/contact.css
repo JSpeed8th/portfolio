@@ -1,3 +1,36 @@
 .contact {
   /* background-color: black; */
 }
+
+.skill-modal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60vw;
+  height: 65vh;
+  opacity: 0.9;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+}
+
+.skill-modal img,
+.resume {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.skill-modal img:hover,
+.resume:hover {
+  height: 95%;
+  width: 95%;
+  transition: 0.3s;
+}
+
+.resume {
+  background-image: url("../images/SkillLanguages/resume-two-logo-LEG.png");
+  background-color: #fdfff7;
+}
