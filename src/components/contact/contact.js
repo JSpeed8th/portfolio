@@ -1,5 +1,6 @@
 import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
+import "../Normalize.css";
 import "./contact.css";
 import "../App.css";
 import backgroundimage from "../images/contact.jpg";

@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 60vw;
-  height: 65vh;
+  height: 60vh;
   opacity: 0.9;
   /* border: 1px solid green; */
   margin: 0 auto;
