@@ -1,9 +1,9 @@
 import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
-import "../Normalize.css";
+import "../../Normalize.css";
 import "./contact.css";
-import "../App.css";
-import backgroundimage from "../images/contact.jpg";
+import "../../containers/App.css";
+import backgroundimage from "../../assets/images/contact.jpg";
 
 const contact = () => {
   const skillarray = [
@@ -17,7 +17,12 @@ const contact = () => {
   ];
 
   const newArray = skillarray.map((skill, index) => {
-    return <img src={require("../images/SkillLanguages/" + skill)} alt="" />;
+    return (
+      <img
+        src={require("../../assets/images/SkillLanguages/" + skill)}
+        alt=""
+      />
+    );
   });
 
   return (

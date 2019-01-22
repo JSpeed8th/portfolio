@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  background-image: url("./images/home.jpg");
+  background-image: url("../assets/images/home.jpg");
   background-repeat: no-repeat;
   background-size: 91vw 100vh;
   overflow: hidden;

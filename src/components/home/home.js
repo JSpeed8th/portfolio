@@ -2,7 +2,7 @@ import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
 import ReactFooter from "../footer/footer";
 import "./home.css";
-import "../App.css";
+import "../../containers/App.css";
 
 const home = props => {
   return (

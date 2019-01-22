@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-import "./Normalize.css";
-import Home from "./home/home";
-import About from "../about/about";
-import Projects from "./projects/projects";
-import Contact from "./contact/contact";
+import "../Normalize.css";
+import Home from "../components/home/home";
+import About from "../components/about/about";
+import Projects from "../components/projects/projects";
+import Contact from "../components/contact/contact";
 
 class App extends Component {
   collapse;

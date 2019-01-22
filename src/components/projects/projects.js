@@ -1,11 +1,11 @@
 import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
 import "./projects.css";
-import "../App.css";
-import backgroundimage from "../images/projects.jpg";
-import bakeryRecording from "../screenRecording/jordansBakery.mov";
-import pokemonRecording from "../screenRecording/pokemon.mov";
-import tastebudsRecording from "../screenRecording/tastebuds.mov";
+import "../../containers/App.css";
+import backgroundimage from "../../assets/images/projects.jpg";
+import bakeryRecording from "../../assets/screenRecording/jordansBakery.mov";
+import pokemonRecording from "../../assets/screenRecording/pokemon.mov";
+import tastebudsRecording from "../../assets/screenRecording/tastebuds.mov";
 
 const projects = props => {
   const videos = [
