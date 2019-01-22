@@ -15,9 +15,8 @@
 }
 
 .home-title {
-  display: block;
   margin: 0 auto;
-  margin-top: 7vh;
+  margin-top: 15vh;
   width: 75vw;
   text-align: center;
   font-size: 2vw;
@@ -26,12 +25,11 @@
   color: #3c4f64;
   transition: 0.15s;
   opacity: 0;
-  /* visibility: hidden; */
 }
 
 .home-view .page-title {
   position: absolute;
-  top: 15vh;
+  top: 6vh;
   left: 0;
 }
 
@@ -41,7 +39,7 @@
     opacity: 0;
   }
   to {
-    margin-top: 7vh;
+    margin-top: 15vh;
     opacity: 1;
     visibility: visible;
   }
