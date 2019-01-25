@@ -12,7 +12,7 @@ const projects = props => {
     {
       path: bakeryRecording,
       github: "https://github.com/JSpeed8th/Jordans-Bakery-And-Company",
-      livelink: "#",
+      livelink: "https://jordans-bakery-and-company.herokuapp.com/",
       title: "Jordan's Bakery & Company",
       description:
         'An application for, "jordan\'s bakery & company", with features including user sign-in, crud functionality, and the capability to order baked-goods.'
