@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.5b671c6f.chunk.css",
-  "main.js": "/portfolio/static/js/main.fdc53757.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.fdc53757.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.2168827a.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.2168827a.chunk.js.map",
   "static/js/1.c9e84c8a.chunk.js": "/portfolio/static/js/1.c9e84c8a.chunk.js",
   "static/js/1.c9e84c8a.chunk.js.map": "/portfolio/static/js/1.c9e84c8a.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -25,6 +25,6 @@
   "static/media/sass-logo.jpg": "/portfolio/static/media/sass-logo.493c53b4.jpg",
   "static/css/main.5b671c6f.chunk.css.map": "/portfolio/static/css/main.5b671c6f.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.1e6a6d52b0225f910d88a370df10adf3.js": "/portfolio/precache-manifest.1e6a6d52b0225f910d88a370df10adf3.js",
+  "precache-manifest.9fa6a625ad28b19f6c14e53c8757c4b8.js": "/portfolio/precache-manifest.9fa6a625ad28b19f6c14e53c8757c4b8.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
