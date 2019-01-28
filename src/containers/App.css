@@ -3,7 +3,7 @@ body {
   background-image: url("../assets/images/home.jpg");
   background-repeat: no-repeat;
   background-size: 91vw 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @keyframes slideup {

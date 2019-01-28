@@ -60,7 +60,10 @@ const projects = props => {
   });
 
   return (
-    <div className="projects view">
+    <div className="projects view"
+    onMouseOver = {props.collapseHandler}
+    onMouseOut = {props.expandHandler}
+    >
       <div
         className="background-image"
         style={{ backgroundImage: `url(${backgroundimage})` }}

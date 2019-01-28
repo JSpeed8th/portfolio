@@ -1,12 +1,13 @@
 import React from "react";
 import SocialMedia from "../socialmedia/socialmedia";
-import ReactFooter from "../footer/footer";
 import "./home.css";
 import "../../containers/App.css";
 
 const home = props => {
+  const style = {}
+  props.homeCollapsed ? style.display = 'block' : style.display = 'none';
   return (
-    <div className="home-view">
+    <div className="home-view" style = {style}>
       <SocialMedia />
       <div className="home-image">
         <h1 className="page-title">Home</h1>
@@ -15,7 +16,6 @@ const home = props => {
           <p>full stack web developer</p>
         </div>
       </div>
-      <ReactFooter />
     </div>
   );
 };

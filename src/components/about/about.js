@@ -6,7 +6,10 @@ import backgroundimage from "../../assets/images/about.jpg";
 
 const about = props => {
   return (
-    <div className="about view">
+    <div className="about view"
+    onMouseOver = {props.collapseHandler}
+    onMouseOut = {props.expandHandler}
+    >
       <div
         className="background-image"
         style={{ backgroundImage: `url(${backgroundimage})` }}

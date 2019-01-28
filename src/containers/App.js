@@ -5,21 +5,40 @@ import Home from "../components/home/home";
 import About from "../components/about/about";
 import Projects from "../components/projects/projects";
 import Contact from "../components/contact/contact";
+import ReactFooter from "../components/footer/footer";
 
 class App extends Component {
-  collapse;
-  collapseHandler = () => {
-    console.log(!this.collapse);
-  };
-  render() {
-    this.collapse = false;
+  state = {
+    homeCollapsed: true
+  }
 
+  collapsedToggleHandler = () => {
+    this.setState({
+      homeCollapsed: false
+    })
+  }
+
+  collapsedToggleHandlerTwo = () => {
+    this.setState({
+      homeCollapsed: true
+    })
+  }
+  render() {
     return (
       <div className="App">
-        <Contact collapseListener={this.collapseHandler} />
-        <Projects collapseListener={this.collapseHandler} />
-        <About collapseListener={this.collapseHandler} />
-        <Home collapseListener={this.collapseHandler} />
+        <Contact
+        collapseHandler={this.collapsedToggleHandler}
+        expandHandler = {this.collapsedToggleHandlerTwo}
+        />
+        <Projects
+        collapseHandler={this.collapsedToggleHandler}
+        expandHandler = {this.collapsedToggleHandlerTwo}
+        />
+        <About collapseHandler={this.collapsedToggleHandler}
+        expandHandler = {this.collapsedToggleHandlerTwo}
+        />
+        <Home homeCollapsed={this.state.homeCollapsed} />
+        <ReactFooter />
       </div>
     );
   }

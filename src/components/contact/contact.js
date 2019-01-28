@@ -5,7 +5,7 @@ import "./contact.css";
 import "../../containers/App.css";
 import backgroundimage from "../../assets/images/contact.jpg";
 
-const contact = () => {
+const contact = props => {
   const skillarray = [
     "html-logo.jpg",
     "css-logo.jpg",
@@ -19,14 +19,19 @@ const contact = () => {
   const newArray = skillarray.map((skill, index) => {
     return (
       <img
+        className = 'skills'
         src={require("../../assets/images/SkillLanguages/" + skill)}
         alt=""
+        key = {index}
       />
     );
   });
 
   return (
-    <div className="contact view">
+    <div className="contact view"
+    onMouseOver = {props.collapseHandler}
+    onMouseOut = {props.expandHandler}
+    >
       <div
         className="background-image"
         style={{ backgroundImage: `url(${backgroundimage})` }}
@@ -35,14 +40,14 @@ const contact = () => {
         <h1 className="page-title">Skills</h1>
         <div className="skill-modal">
           {newArray}
-
-          <a
-            href="https://docs.google.com/document/d/1yyWKDvS-OqJKOqnuZJ874OAvofttr_whVkmjGPjGrr8/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="resume" />
-          </a>
+            <div className="resume">
+            <a
+              href="https://docs.google.com/document/d/1yyWKDvS-OqJKOqnuZJ874OAvofttr_whVkmjGPjGrr8/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            </div>
         </div>
       </div>
     </div>

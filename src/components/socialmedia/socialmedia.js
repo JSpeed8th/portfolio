@@ -35,7 +35,9 @@ const socialmedia = () => {
   });
 
   // Returning New Array With Mapped JSX
-  return <div className="icons hover-effect">{newArray}</div>;
+  return <div className="icons hover-effect">
+  {newArray}
+  </div>;
 };
 
 export default socialmedia;
