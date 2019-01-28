@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "884a75835e668e1f5b19a985d4e14871",
-    "url": "/portfolio/static/media/contact.884a7583.jpg"
+    "revision": "66657f5dc34703daceb62cb80cf2f7d4",
+    "url": "/portfolio/static/media/react-logo.66657f5d.png"
   },
   {
-    "revision": "39c70badb851d84f5305",
-    "url": "/portfolio/static/css/main.1d58cee8.chunk.css"
+    "revision": "9a3dd0c6ef5f5b4f2403",
+    "url": "/portfolio/static/css/main.bbf5865a.chunk.css"
   },
   {
     "revision": "c9e84c8aea05f1c3f5c1",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "eb36817db1c652e7d88381c5de02e83c",
     "url": "/portfolio/static/media/home.eb36817d.jpg"
-  },
-  {
-    "revision": "66657f5dc34703daceb62cb80cf2f7d4",
-    "url": "/portfolio/static/media/react-logo.66657f5d.png"
   },
   {
     "revision": "fb3a4c3161d3e7c593c2f55cd87326ba",
@@ -44,8 +40,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/tastebuds.72de4564.mov"
   },
   {
-    "revision": "39c70badb851d84f5305",
-    "url": "/portfolio/static/js/main.39c70bad.chunk.js"
+    "revision": "884a75835e668e1f5b19a985d4e14871",
+    "url": "/portfolio/static/media/contact.884a7583.jpg"
+  },
+  {
+    "revision": "9a3dd0c6ef5f5b4f2403",
+    "url": "/portfolio/static/js/main.9a3dd0c6.chunk.js"
   },
   {
     "revision": "8494c5427984d4c8dfdb77f218cc83a2",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/sass-logo.493c53b4.jpg"
   },
   {
-    "revision": "f62d098f29fdd3c961e0858873aaf59d",
+    "revision": "9df55e2d916cc7ea5bc0a461cb4676b2",
     "url": "/portfolio/index.html"
   }
 ];
