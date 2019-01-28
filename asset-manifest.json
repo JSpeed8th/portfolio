@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.bbf5865a.chunk.css",
-  "main.js": "/portfolio/static/js/main.9a3dd0c6.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.9a3dd0c6.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.869ba8d2.chunk.css",
+  "main.js": "/portfolio/static/js/main.ecc135cc.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.ecc135cc.chunk.js.map",
   "static/js/1.c9e84c8a.chunk.js": "/portfolio/static/js/1.c9e84c8a.chunk.js",
   "static/js/1.c9e84c8a.chunk.js.map": "/portfolio/static/js/1.c9e84c8a.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -23,8 +23,8 @@
   "static/media/about.jpg": "/portfolio/static/media/about.fb3a4c31.jpg",
   "static/media/ruby-logo.png": "/portfolio/static/media/ruby-logo.b43c43bb.png",
   "static/media/sass-logo.jpg": "/portfolio/static/media/sass-logo.493c53b4.jpg",
-  "static/css/main.bbf5865a.chunk.css.map": "/portfolio/static/css/main.bbf5865a.chunk.css.map",
+  "static/css/main.869ba8d2.chunk.css.map": "/portfolio/static/css/main.869ba8d2.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.27eb21bc6c6b9d2d5172bb34a6796755.js": "/portfolio/precache-manifest.27eb21bc6c6b9d2d5172bb34a6796755.js",
+  "precache-manifest.aaf96c663fec67aa940f072f3cec6487.js": "/portfolio/precache-manifest.aaf96c663fec67aa940f072f3cec6487.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
