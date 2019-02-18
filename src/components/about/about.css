@@ -3,6 +3,7 @@
 }
 
 .about-modal {
+  background-color: rgba(0, 0, 0, 0.05);
   width: 50vw;
   max-height: 100vh;
   padding: 5px 15px;
