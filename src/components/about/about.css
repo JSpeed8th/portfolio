@@ -7,7 +7,7 @@
   max-height: 100vh;
   padding: 5px 15px;
   margin: 0 5vw;
-  margin-top: -12vh;
+  margin-top: -10vh;
   opacity: 0;
   border-radius: 10px;
   cursor: default;
@@ -35,7 +35,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 2.5;
-  font-size: 1.4vw;
+  font-size: 20px;
   text-align: justify;
   font-weight: bolder;
 }

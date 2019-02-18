@@ -1,5 +1,5 @@
 import React from "react";
-import SocialMedia from "../socialmedia/socialmedia";
+import SocialMedia from "../Socialmedia/Socialmedia";
 import ProjectContainer from './ProjectContainer/ProjectContainer';
 import "./Projects.css";
 import "../../containers/App.css";

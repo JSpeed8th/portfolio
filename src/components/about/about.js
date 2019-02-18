@@ -1,5 +1,5 @@
 import React from "react";
-import SocialMedia from "../socialmedia/socialmedia";
+import SocialMedia from "../Socialmedia/Socialmedia";
 import Paragraph from './Paragraph';
 import "./About.css";
 import "../../containers/App.css";

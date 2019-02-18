@@ -4,7 +4,7 @@ import "../Normalize.css";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import Projects from "../components/Projects/Projects";
-import Contact from "../components/contact/contact";
+import Skills from "../components/Skills/Skills";
 import ReactFooter from "../components/ReactFooter/ReactFooter";
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Contact
+        <Skills
         collapseHandler={this.collapsedToggleHandler}
         expandHandler = {this.collapsedToggleHandlerTwo}
         />

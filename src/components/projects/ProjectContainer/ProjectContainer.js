@@ -13,7 +13,7 @@ const ProjectContainer = () => {
 	      livelink: "https://jordans-bakery-and-company.herokuapp.com/",
 	      title: "Jordan's Bakery & Company",
 	      description:
-	        'An application for, "jordan\'s bakery & company", with features including user sign-in, crud functionality, and the capability to order baked-goods.'
+	        'An application for, "jordan\'s bakery & company" which includes CRUD functionality and the ability to order bakes. Built in Ruby, Rails, & SQLite.'
 	    },
 	    {
 	      path: smartBrainRecording,
@@ -29,7 +29,7 @@ const ProjectContainer = () => {
 	      livelink: "https://jspeed8th.github.io/Pokemon-Group-Gym/",
 	      title: "Pokedex App",
 	      description:
-	        "Pokedex app showcases individual Pokemon’s statistics upon user request. This project is focused on client side technology."
+	        "Pokedex app showcases individual Pokemon’s statistics upon user request. Pokedex was built in Ruby, Rails, and SQLite."
 	    },
 	    {
 	      path: tastebudsRecording,
@@ -37,7 +37,7 @@ const ProjectContainer = () => {
 	      livelink: "https://jordansrumblr.herokuapp.com ",
 	      title: "Taste Buds",
 	      description:
-	        "A Tumblr clone geared towards bakers so that they can share recipes and comment on one another's work. This project is written in rails."
+	        "A social networking site for bakers to share their recipes. Built in Ruby, Rails, & SQLite."
 	    }
 	  ];
 
@@ -46,7 +46,7 @@ const ProjectContainer = () => {
 	      	<div className="individual-project">
 		        <div className="individual-project__left">
 		          <p className="project-title">{video.title}</p>
-		          <video muted controls>
+		          <video muted autoPlay>
 		            <source src={video.path} type="video/mp4" />
 		          </video>
 		          <div className="links">

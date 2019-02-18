@@ -1,11 +1,11 @@
 import React from "react";
-import SocialMedia from "../socialmedia/socialmedia";
+import SocialMedia from "../Socialmedia/Socialmedia";
 import "../../Normalize.css";
-import "./contact.css";
+import "./Skills.css";
 import "../../containers/App.css";
 import backgroundimage from "../../assets/images/contact.jpg";
 
-const contact = props => {
+const Skills = props => {
   const skillarray = [
     "html-logo.jpg",
     "css-logo.jpg",
@@ -54,4 +54,4 @@ const contact = props => {
   );
 };
 
-export default contact;
+export default Skills;

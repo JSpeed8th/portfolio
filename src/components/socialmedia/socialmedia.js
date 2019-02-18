@@ -1,7 +1,7 @@
 import React from "react";
-import "./socialmedia.css";
+import "./Socialmedia.css";
 
-const socialmedia = () => {
+const Socialmedia = () => {
   // Array Containing My Social Media Handles
   const socialMediaArray = [
     { link: "https://github.com/JSpeed8th", name: "logo-github" },
@@ -40,4 +40,4 @@ const socialmedia = () => {
   </div>;
 };
 
-export default socialmedia;
+export default Socialmedia;
