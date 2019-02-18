@@ -3,17 +3,18 @@
 	flex-wrap: wrap;
 	justify-content:center;
 	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 10px;
+	border-radius: 5px;
 	width: 63%;
-	height: 70%;
+	height: 65vh;
 	padding: 5px;
 	margin-left: 15vw;
 	overflow: scroll;
 }
 
 .skill-modal img {
-  height: 140px;
-  width: 240px;
+  height: 30vh;
+  max-width: 150px;
+  width: 15vw;
   margin: 3px;
   border-radius: 5px;
   transition: transform 1s;
