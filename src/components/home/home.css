@@ -1,11 +1,5 @@
-.home-image {
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* border: 1px solid orange; */
-  height: 75vh;
-  width: 100%;
-  margin: 0px;
+.home-view {
+  overflow: hidden;
 }
 
 .home-view .page-title {

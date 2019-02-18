@@ -6,14 +6,12 @@ import "../../containers/App.css";
 
 const Home = ({ homeCollapsed }) => {
   const style = {}
-  homeCollapsed ? style.height = '97vh' : style.height = '0px';
+  homeCollapsed ? style.height = '97vh' : style.height = '0vh';
   return (
     <div className="home-view" style = {style}>
       <SocialMedia />
-      <div className="home-image">
         <h1 className="page-title">Home</h1>
         <MyName />
-      </div>
     </div>
   );
 };
