@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import "../Normalize.css";
-import Home from "../components/home/home";
-import About from "../components/about/about";
-import Projects from "../components/projects/projects";
+import Home from "../components/Home/Home";
+import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
 import Contact from "../components/contact/contact";
-import ReactFooter from "../components/footer/footer";
+import ReactFooter from "../components/ReactFooter/ReactFooter";
 
 class App extends Component {
   state = {

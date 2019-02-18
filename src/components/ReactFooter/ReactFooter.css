@@ -1,0 +1,21 @@
+.logo-container {
+  width: 150px;
+}
+
+.react-logo {
+  position: absolute;
+  left: 1vw;
+  top: 90vh;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.632);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.logo-container span {
+  color: #61dafb;
+}

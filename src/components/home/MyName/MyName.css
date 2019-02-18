@@ -1,0 +1,20 @@
+.home-title h1,
+.home-title p {
+  font-family: "Major Mono Display", monospace;
+  line-height: 2;
+  margin: 0;
+}
+
+.home-title {
+  /* display: none; */
+  margin: 0 auto;
+  margin-top: 15vh;
+  width: 75vw;
+  text-align: center;
+  font-size: 2vw;
+  word-spacing: 5px;
+  letter-spacing: 11px;
+  color: #3c4f64;
+  transition: 0.15s;
+  opacity: 0;
+}
