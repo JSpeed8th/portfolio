@@ -19,7 +19,7 @@
   display: flex;
   animation-name: appear-and-slide-up;
   animation-fill-mode: forwards;
-  animation-duration: 1.5s;
+  animation-duration: 1.3s;
 }
 
 video {

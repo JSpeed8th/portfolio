@@ -47,7 +47,7 @@ const ProjectContainer = () => {
 	      	<div className="individual-project">
 		        <div className="individual-project__left">
 		          <p className="project-title">{video.title}</p>
-		          <video muted autoPlay>
+		          <video muted autoPlay loop>
 		            <source src={video.path} type="video/mp4" />
 		          </video>
 		          <div className="links">
