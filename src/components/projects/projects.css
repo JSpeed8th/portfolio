@@ -3,13 +3,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  padding-top: 12vh;
+  align-content: flex-start;
+  /*padding: 15vh 0;*/
+  border: 1px solid white;
+  border-radius: 10px;
   margin: 0 auto;
   margin-top: -5vh;
   width: 75vw;
   height: 75vh;
-  overflow: scroll;
+  overflow: auto;
 }
 
 /* When User Hovers Over Project View Animation is Triggered and Opacity becomes 1 */
