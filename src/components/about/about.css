@@ -6,14 +6,11 @@
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.05);
   width: 50vw;
-  max-height: 100vh;
   padding: 5px 15px;
   margin-left: 5vw;
-  margin-top: -10vh;
   opacity: 0;
   border-radius: 10px;
   cursor: default;
-  /* opacity: 1; */
   overflow: scroll;
 }
 
@@ -37,7 +34,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 2.5;
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: justify;
   font-weight: bolder;
 }
@@ -95,6 +92,6 @@
 /* ----------- 4K Screens ----------- */
 @media only screen and (min-device-width: 1600px) {
     .about-modal {
-      margin-top: 23vh;
+      margin-top: 15vh;
   }
 }
