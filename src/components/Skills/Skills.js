@@ -8,7 +8,7 @@ import backgroundimage from "../../assets/images/contact.jpg";
 
 const Skills = props => {
   return (
-    <div className="contact view"
+    <div className="skills view"
     onMouseOver = {props.collapseHandler}
     onMouseOut = {props.expandHandler}
     >

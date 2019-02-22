@@ -1,23 +1,22 @@
 .skill-modal {
-	display: flex;
+	display: none;
+	margin: 0 auto;
 	flex-wrap: wrap;
 	justify-content:center;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
-	width: 66vw;
-	height: 65vh;
+	width: 850px;
 	padding: 5px;
-	margin-left: 15vw;
 	overflow: scroll;
 }
 
 .skill-modal img {
   height: 200px;
-  max-width: 200px;
+  min-width: 200px;
   width: 16vw;
   margin: 3px;
   border-radius: 5px;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .skill-modal img:hover {
