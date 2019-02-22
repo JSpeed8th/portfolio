@@ -1,26 +1,26 @@
-.icons ion-icon {
+ion-icon {
   display: inline-block;
   font-size: 3vw;
   transition: 0.2s;
   color: white;
   opacity: 0;
+  transition: all 0.3s;
 }
 
-.icons ion-icon:hover {
+ion-icon:hover {
   color: #364358;
-  font-size: 2.7vw;
-  transition: 0.3s;
+  transform: scale(.9);
 }
 
+/*Row of icons appear only when hovered.*/
 .view:hover ion-icon,
 .home-view:hover ion-icon {
   opacity: 1;
 }
 
 .icons {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   margin-left: 70vw;
   padding-top: 10px;
   width: 19vw;
