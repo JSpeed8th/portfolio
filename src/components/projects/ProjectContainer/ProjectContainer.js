@@ -1,4 +1,5 @@
 import React from 'react';
+import './ProjectContainer.css';
 import bakeryRecording from "../../../assets/screenRecording/jordansBakery.mov";
 import pokemonRecording from "../../../assets/screenRecording/pokemon.mov";
 import tastebudsRecording from "../../../assets/screenRecording/tastebuds.mov";
@@ -59,7 +60,7 @@ const ProjectContainer = () => {
 		            </a>
 		          </div>
 		        </div>
-		        <div className="individual-project__right">
+		        <div className="individual-project__description">
 		          <p>{video.description}</p>
 		        </div>
 	      	</div>
