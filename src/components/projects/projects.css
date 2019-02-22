@@ -1,28 +1,28 @@
 .project-container {
   display: none;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 12vh;
   margin: 0 auto;
   margin-top: -5vh;
-  background-color: rgba(0, 0, 0, 0.796);
   width: 75vw;
-  height: 60vh;
+  height: 75vh;
   overflow: scroll;
-  padding: 40px 30px;
-  border-radius: 10px;
 }
 
 /* When User Hovers Over Project View Animation is Triggered and Opacity becomes 1 */
 .projects:hover .project-container {
-  display: grid;
+  display: flex;
   animation-name: appear-and-slide-up;
   animation-fill-mode: forwards;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 
 video {
   width: 100%;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 @keyframes appear-and-slide-up {
@@ -37,20 +37,10 @@ video {
 
 .links {
   text-align: left;
+  margin: 10px 0;
 }
 
 .links a {
-  color: white;
-}
-
-.links {
-  margin-top: 10px;
-}
-
-.individual-project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
   color: white;
 }
 
@@ -58,11 +48,12 @@ video {
   font-weight: bolder;
 }
 
-.project-title,
-.links,
-.individual-project__right p {
-  font-size: 1.2vw;
+.individual-project__description,
+.project-title {
+  margin: 5px;
+  text-align: center;
 }
+
 .project-title,
 .links {
   text-align: center;
@@ -73,8 +64,11 @@ video {
   transition: 0.2s;
 }
 
+.individual-project__left {
+  max-height: 588px;
+}
+
 .individual-project__right p {
-  margin-top: 7vh;
   max-height: 17vh;
   overflow: auto;
 }
