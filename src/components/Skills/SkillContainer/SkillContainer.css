@@ -4,7 +4,7 @@
 	justify-content:center;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
-	width: 63%;
+	width: 66vw;
 	height: 65vh;
 	padding: 5px;
 	margin-left: 15vw;
@@ -12,12 +12,12 @@
 }
 
 .skill-modal img {
-  height: 30vh;
-  max-width: 150px;
-  width: 15vw;
+  height: 200px;
+  max-width: 200px;
+  width: 16vw;
   margin: 3px;
   border-radius: 5px;
-  transition: transform 1s;
+  transition: all 1s;
 }
 
 .skill-modal img:hover {

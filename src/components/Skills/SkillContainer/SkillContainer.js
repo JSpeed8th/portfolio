@@ -19,7 +19,7 @@ const SkillContainer = () => {
 		skill === 'resume-two-logo-LEG.png' ?
 	    	<a 
 	    		className = 'skills'
-	    		href="https://docs.google.com/document/d/1yyWKDvS-OqJKOqnuZJ874OAvofttr_whVkmjGPjGrr8/edit?usp=sharing"
+	    		href="https://drive.google.com/file/d/1wV85rid1cSXxLe4GYQ-07nVFF3FjA4rU/view?usp=sharing"
               	target="_blank"
               	rel="noopener noreferrer"
 	    	>
