@@ -1,17 +1,21 @@
 import React from "react";
-import SocialMedia from "../Socialmedia/Socialmedia";
+import SocialMedia from "../Socialmedia/socialmedia";
 import MyName from './MyName/MyName';
-import "./Home.css";
+import "./home.css";
 import "../../containers/App.css";
 
-const Home = ({ homeCollapsed }) => {
+const Home = ({changeRoutingHandler, route}) => {
   const style = {}
-  homeCollapsed ? style.height = '97vh' : style.height = '0vh';
+  style.height = '97vh';
+
   return (
-    <div className="home-view" style = {style}>
+    <div className="home-view"
+    style = {style}
+    onClick = {() => changeRoutingHandler('Home')}
+    >
       <SocialMedia />
         <h1 className="page-title">Home</h1>
-        <MyName />
+        <MyName route = {route}/>
     </div>
   );
 };
