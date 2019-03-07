@@ -1,15 +1,18 @@
 import React from "react";
-import SocialMedia from "../Socialmedia/Socialmedia";
+import SocialMedia from "../Socialmedia/socialmedia";
 import ProjectContainer from './ProjectContainer/ProjectContainer';
-import "./Projects.css";
+import "./projects.css";
 import "../../containers/App.css";
 import backgroundimage from "../../assets/images/projects.jpg";
 
-const Projects = props => {
+const Projects = ({ changeRoutingHandler, skills, route, expandPageHandler }) => {
+    const style = {};
+  expandPageHandler('Projects', style);
+
   return (
     <div className="projects view"
-    onMouseOver = {props.collapseHandler}
-    onMouseOut = {props.expandHandler}
+      style = {style}
+      onClick = {() => changeRoutingHandler('Projects')}
     >
       <div
         className="background-image"
@@ -17,7 +20,7 @@ const Projects = props => {
       >
         <SocialMedia />
         <h1 className="page-title">Projects</h1>
-        <ProjectContainer />
+        <ProjectContainer route = {route}/>
       </div>
     </div>
   );
