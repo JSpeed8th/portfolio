@@ -1,43 +1,45 @@
 import React, { Component } from "react";
 import "./App.css";
 import "../Normalize.css";
-import Home from "../components/Home/Home";
-import About from "../components/About/About";
-import Projects from "../components/Projects/Projects";
-import Skills from "../components/Skills/Skills";
+import Home from "../components/Home/home";
+import About from "../components/About/about";
+import Projects from "../components/Projects/projects";
+import Skills from "../components/Skills/skills";
 import ReactFooter from "../components/ReactFooter/ReactFooter";
 
 class App extends Component {
   state = {
-    homeCollapsed: true
+    route: 'Home'
   }
 
-  collapsedToggleHandler = () => {
-    this.setState({
-      homeCollapsed: false
-    })
+  changeRoutingHandler = (routeName) => this.setState({ route: routeName });
+
+  expandPageHandler = (routeName, style) => {
+    if (routeName === this.state.route) style.width = '87.5vw'
   }
 
-  collapsedToggleHandlerTwo = () => {
-    this.setState({
-      homeCollapsed: true
-    })
-  }
   render() {
     return (
       <div className="App">
         <Skills
-        collapseHandler={this.collapsedToggleHandler}
-        expandHandler = {this.collapsedToggleHandlerTwo}
+        changeRoutingHandler = {this.changeRoutingHandler}
+        expandPageHandler = {this.expandPageHandler}
+        route = {this.state.route}
         />
         <Projects
-        collapseHandler={this.collapsedToggleHandler}
-        expandHandler = {this.collapsedToggleHandlerTwo}
+        changeRoutingHandler = {this.changeRoutingHandler}
+        expandPageHandler = {this.expandPageHandler}
+        route = {this.state.route}
         />
-        <About collapseHandler={this.collapsedToggleHandler}
-        expandHandler = {this.collapsedToggleHandlerTwo}
+        <About
+        changeRoutingHandler = {this.changeRoutingHandler}
+        expandPageHandler = {this.expandPageHandler}
+        route = {this.state.route}
         />
-        <Home homeCollapsed={this.state.homeCollapsed} />
+        <Home
+        changeRoutingHandler = {this.changeRoutingHandler}
+        route = {this.state.route}
+         />
         <ReactFooter />
       </div>
     );
