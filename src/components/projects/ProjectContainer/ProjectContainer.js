@@ -5,7 +5,7 @@ import pokemonRecording from "../../../assets/screenRecording/pokemon.mov";
 import tastebudsRecording from "../../../assets/screenRecording/tastebuds.mov";
 import smartBrainRecording from '../../../assets/screenRecording/smart-brain.mov';
 
-const ProjectContainer = () => {
+const ProjectContainer = ({ route }) => {
 	// Array of project details
 	const videos = [
 	    {
@@ -44,7 +44,7 @@ const ProjectContainer = () => {
 
 	const videoArray = videos.map((video, index) => {
 	    return (
-	      	<div className="individual-project">
+	      	<div className="individual-project" key = {index}>
 		        <div className="individual-project__left">
 		          <p className="project-title">{video.title}</p>
 		          <video muted autoPlay loop>
@@ -67,8 +67,12 @@ const ProjectContainer = () => {
 	    );
 	 });
 
+	const style = {
+		display: 'flex'
+	};
+	route === 'Projects' ? style.animationName = 'appear-and-slide-up' : style.display = 'none';
 	return (
-		<div className="project-container">
+		<div className="project-container" style = {style}>
 			{videoArray}
 		</div>
 		)
