@@ -1,3 +1,7 @@
+.projects {
+  background-color: black;
+}
+
 .project-container {
   display: none;
   flex-wrap: wrap;
@@ -5,7 +9,7 @@
   align-items: center;
   align-content: flex-start;
   /*padding: 15vh 0;*/
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: -5vh;
@@ -15,9 +19,8 @@
 }
 
 /* When User Hovers Over Project View Animation is Triggered and Opacity becomes 1 */
-.projects:hover .project-container {
-  display: flex;
-  animation-name: appear-and-slide-up;
+.project-container {
+  /*animation-name: appear-and-slide-up;*/
   animation-fill-mode: forwards;
   animation-duration: 1.3s;
 }
