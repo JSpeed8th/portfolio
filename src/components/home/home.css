@@ -20,8 +20,8 @@
   }
 }
 
-.home-view:hover .home-title {
-  display: block;
+.home-title {
+  /*display: block;*/
   opacity: 1;
   visibility: visible;
   animation-name: slideup;
