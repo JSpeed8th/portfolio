@@ -1,16 +1,19 @@
 import React from "react";
-import SocialMedia from "../Socialmedia/Socialmedia";
+import SocialMedia from "../Socialmedia/socialmedia";
 import SkillContainer from './SkillContainer/SkillContainer';
 import "../../Normalize.css";
-import "./Skills.css";
+import "./skills.css";
 import "../../containers/App.css";
 import backgroundimage from "../../assets/images/contact.jpg";
 
-const Skills = props => {
+const Skills = ({ changeRoutingHandler, route, expandPageHandler }) => {
+  const style = {};
+  expandPageHandler('Skills', style);
+
   return (
     <div className="skills view"
-    onMouseOver = {props.collapseHandler}
-    onMouseOut = {props.expandHandler}
+      style = {style}
+      onClick = {() => changeRoutingHandler('Skills')}
     >
       <div
         className="background-image"
@@ -18,7 +21,7 @@ const Skills = props => {
       >
         <SocialMedia />
         <h1 className="page-title">Skills</h1>
-        <SkillContainer />
+        <SkillContainer route = {route}/>
         </div>
       </div>
   );
