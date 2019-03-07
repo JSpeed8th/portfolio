@@ -1,72 +1,72 @@
 body {
-  font-family: "Raleway", sans-serif;
-  background-image: url("../assets/images/home.jpg");
-  background-repeat: no-repeat;
-  background-size: 91vw 100vh;
-  /* overflow: hidden; */
+ font-family: "Raleway", sans-serif;
+ background-image: url("../assets/images/home.jpg");
+ background-repeat: no-repeat;
+ background-size: 91vw 100vh;
+ /* overflow: hidden; */
 }
 
 @keyframes slideup {
-  from {
-    top: 300px;
-    opacity: 0;
-  }
-  to {
-    top: 205px;
-    opacity: 1;
-  }
+ from {
+   top: 300px;
+   opacity: 0;
+ }
+ to {
+   top: 205px;
+   opacity: 1;
+ }
 }
 
 .view {
-  width: 3vw;
-  float: right;
-  transition: 0.4s;
-  overflow: hidden;
+ width: 4.5vw;
+ float: right;
+ transition: 0.4s;
+ overflow: hidden;
 }
 
-.view:hover {
-  width: 91vw;
-  animation-name: expand;
-  transition: 0.4s;
-}
+/*.view:hover {
+ width: 91vw;
+ animation-name: expand;
+ transition: 0.4s;
+}*/
 
 @keyframes expand {
-  from {
-    width: 3vw;
-  }
-  to {
-    width: 91vw;
-  }
+ from {
+   width: 3vw;
+ }
+ to {
+   width: 91vw;
+ }
 }
 
 /* --------------------------HOME VIEW------------------------------ */
 
 .page-title {
-  font-family: "Major Mono Display", monospace;
-  font-size: 1.5vw;
-  letter-spacing: 5px;
-  transform: rotate(270deg);
-  text-align: center;
-  width: 17vw;
-  margin-top: 50px;
-  margin-left: -7vw;
-  transition: 0.2s;
-  color: white;
+ font-family: "Major Mono Display", monospace;
+ font-size: 15px;
+ letter-spacing: 4px;
+ transform: rotate(270deg);
+ text-align: center;
+ width: 17vw;
+ margin-top: 50px;
+ margin-left: -7vw;
+ transition: 0.2s;
+ color: white;
 }
 
 .background-image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  /* Blur Is detrimental to performance */
-  /* filter: blur(10px);
-  transition: 0.3s; */
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 100vh;
+ /* Blur Is detrimental to performance */
+ /* filter: blur(10px);
+ transition: 0.3s; */
 }
 
 .view .background-image:hover {
-  transition: 0.12s;
-  filter: none;
+ transition: 0.12s;
+ filter: none;
 }
 
 /* .background-image: hover; */
