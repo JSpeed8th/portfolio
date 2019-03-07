@@ -1,5 +1,5 @@
 import React from "react";
-import "./Socialmedia.css";
+import "./socialmedia.css";
 
 const Socialmedia = () => {
   // Array Containing My Social Media Handles
