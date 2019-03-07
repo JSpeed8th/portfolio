@@ -3,9 +3,10 @@
 }
 
 .about-modal {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), black);
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01),black, black);
   width: 40vw;
-  padding: 3px 15px;
+  padding: 0px 15px;
+  padding-top: 20px;
   margin-left: 5vw;
   border-radius: 10px;
   cursor: default;
