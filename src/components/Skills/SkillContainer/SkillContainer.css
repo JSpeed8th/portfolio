@@ -4,6 +4,7 @@
 	flex-wrap: wrap;
 	justify-content:center;
 	border-radius: 5px;
+	border: 2px solid white;
 	width: 77vw;
 	max-height: 75vh;
 	overflow: auto;
