@@ -1,7 +1,7 @@
 import React from 'react';
 import './SkillContainer.css';
 
-const SkillContainer = () => {
+const SkillContainer = ({ route }) => {
 	const skillarray = [
 	    "html-logo.jpg",
 	    "css-logo.jpg",
@@ -17,11 +17,12 @@ const SkillContainer = () => {
 		return (
 		// If resume image, apply this.
 		skill === 'resume-two-logo-LEG.png' ?
-	    	<a 
+	    	<a
 	    		className = 'skills'
 	    		href="https://drive.google.com/file/d/1wV85rid1cSXxLe4GYQ-07nVFF3FjA4rU/view?usp=sharing"
               	target="_blank"
               	rel="noopener noreferrer"
+              	key = {index}
 	    	>
 	    		<img
 	    			src={require("../../../assets/images/SkillLanguages/" + skill)}
@@ -39,8 +40,12 @@ const SkillContainer = () => {
 	      />
 	      )
   	});
+
+	const style = {};
+	route === 'Skills' ? style.display = 'flex' : style.display = 'none';
+
 	return (
-		<div className="skill-modal">
+		<div className="skill-modal" style = {style}>
           {newArray}
         </div>
 		)
