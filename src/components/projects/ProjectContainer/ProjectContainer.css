@@ -2,10 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-/*  grid-template-columns: 1fr 1fr;*/
   width: 33vw;
   min-width: 288px;
-  /*padding: 10px;*/  
   margin: 10px;
   color: white;
   border-radius: 15px;
