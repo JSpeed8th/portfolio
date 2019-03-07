@@ -1,15 +1,23 @@
 import React from "react";
-import SocialMedia from "../Socialmedia/Socialmedia";
+import SocialMedia from "../Socialmedia/socialmedia";
 import Paragraph from './Paragraph';
-import "./About.css";
+import "./about.css";
 import "../../containers/App.css";
 import backgroundimage from "../../assets/images/about.jpg";
 
-const About = ({ collapseHandler, expandHandler }) => {
+const About = ({ changeRoutingHandler, route, expandPageHandler }) => {
+
+  const style = {};
+  const modalStyle = {};
+
+  expandPageHandler('About', style);
+
+  route === 'About' ? modalStyle.transition = 'inline-block' : modalStyle.display = 'none';
+
   return (
     <div className="about view"
-    onMouseOver = {collapseHandler}
-    onMouseOut = {expandHandler}
+      style = {style}
+      onClick = {() => changeRoutingHandler('About')}
     >
       <div
         className="background-image"
@@ -17,7 +25,7 @@ const About = ({ collapseHandler, expandHandler }) => {
       >
         <SocialMedia />
         <h1 className="page-title">About</h1>
-        <div className="about-modal">
+        <div className="about-modal" style = {modalStyle}>
           <Paragraph />
         </div>
       </div>
@@ -26,3 +34,4 @@ const About = ({ collapseHandler, expandHandler }) => {
 };
 
 export default About;
+  
