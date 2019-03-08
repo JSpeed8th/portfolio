@@ -2,7 +2,7 @@
 .home-title p {
   font-family: "Major Mono Display", monospace;
   line-height: 2;
-  margin: 0;
+  margin: 0 auto;
   font-weight: bold;
 }
 
@@ -12,5 +12,4 @@
   font-size: 1.9vw;
   letter-spacing: 11px;
   color: #3c4f64;
-  opacity: 0;
 }
