@@ -4,9 +4,10 @@
 
 .about-modal {
   display: inline-block;
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), black);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black);
   width: 40vw;
-  height: 45vh;
+  /* height: 45vh; */
+  margin-top: -6vh;
   padding: 0px 15px;
   padding-top: 25px;
   margin-left: 5vw;
@@ -29,8 +30,18 @@
   background: -webkit-linear-gradient(#3c4f64, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 2.6;
+  line-height: 2.3;
   font-size: 1.65vw;
   text-align: center;
   font-weight: bolder;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-modal {
+    /* margin-top: 10vh; */
+  }
+
+  .about-modal p {
+    font-size: 12px;
+  }
 }
