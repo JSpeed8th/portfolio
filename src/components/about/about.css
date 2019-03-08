@@ -4,7 +4,7 @@
 
 .about-modal {
   display: inline-block;
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black);
+  background: linear-gradient(white,rgba(255, 255, 255, 0.3));
   width: 40vw;
   padding: 0px 15px;
   padding-top: 25px;
@@ -25,7 +25,7 @@
 
 .about-modal p {
   margin: 0 auto;
-  background: -webkit-linear-gradient(#3c4f64, white);
+  background: -webkit-linear-gradient(#3c4f64,#3c4f64);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 2;
@@ -34,19 +34,22 @@
   font-weight: bolder;
 }
 
+@media only screen and (min-width: 800px) and (max-width: 950px) {
+  .about-modal {
+    margin-top: 13vh;
+  }
+}
+
 @media only screen and (max-width: 800px) {
 
   .about-modal p {
     font-size: 13px;
-    background: -webkit-linear-gradient(#3c4f64,#3c4f64);
-    -webkit-background-clip: text;
   }
   .about-modal {
     display: block;
     margin: 0 auto;
     margin-top: 14vh;
     width: 51vw;
-      background: linear-gradient(white,rgba(255, 255, 255, 0.3));
   }
 
 }
