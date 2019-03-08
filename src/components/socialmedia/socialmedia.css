@@ -1,6 +1,6 @@
 ion-icon {
-  display: inline-block;
-  font-size: 3vw;
+  font-size: 2.5rem;
+  margin: 0px 7px;
   transition: 0.2s;
   color: white;
   opacity: 0;
@@ -20,10 +20,10 @@ ion-icon:hover {
 
 .icons {
   display: flex;
-  justify-content: space-between;
-  margin-left: 65vw;
+  justify-content: center;
+  /* border: 1px solid gold; */
   padding-top: 10px;
-  width: 19vw;
+  /* width: 19vw; */
 }
 
 /* Mobile Responsive */

@@ -1,7 +1,7 @@
 import React from "react";
 import "./socialmedia.css";
 
-const Socialmedia = () => {
+const Socialmedia = ({ route, passedRoute }) => {
   // Array Containing My Social Media Handles
   const socialMediaArray = [
     { link: "https://github.com/JSpeed8th", name: "logo-github" },
@@ -20,6 +20,10 @@ const Socialmedia = () => {
     }
   ];
 
+  const style = {};
+
+  passedRoute === route ? style.display = 'inline-block' : style.display = 'none';
+
   // Mapping JSX To Each Item Within Array
   const newArray = socialMediaArray.map((platform, index) => {
     return (
@@ -29,7 +33,7 @@ const Socialmedia = () => {
         rel="noopener noreferrer"
         key={index}
       >
-        <ion-icon name={platform.name} />
+        <ion-icon name={platform.name} style = {style}/>
       </a>
     );
   });

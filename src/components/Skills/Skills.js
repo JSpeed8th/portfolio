@@ -19,7 +19,7 @@ const Skills = ({ changeRoutingHandler, route, expandPageHandler }) => {
         className="background-image"
         style={{ backgroundImage: `url(${backgroundimage})` }}
       >
-        <SocialMedia />
+        <SocialMedia route = {route} passedRoute = 'Skills'/>
         <h1 className="page-title">Skills</h1>
         <SkillContainer route = {route}/>
         </div>

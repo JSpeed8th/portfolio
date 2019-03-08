@@ -5,7 +5,7 @@ const MyName = ({ route }) => {
 	const style = {
 		display: 'block'
 	};
-	route === 'Home' ? style.transition = '1s' : style.display = 'none';
+	route === 'Home' ? style.animationName = 'slideup' : style.display = 'none';
 	return (
 		<div className="home-title" style = {style}>
           <h1>Jordan Speed</h1>

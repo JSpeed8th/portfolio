@@ -23,7 +23,7 @@ const About = ({ changeRoutingHandler, route, expandPageHandler }) => {
         className="background-image"
         style={{ backgroundImage: `url(${backgroundimage})` }}
       >
-        <SocialMedia />
+        <SocialMedia route = {route} passedRoute = 'About'/>
         <h1 className="page-title">About</h1>
         <div className="about-modal" style = {modalStyle}>
           <Paragraph />
@@ -34,4 +34,3 @@ const About = ({ changeRoutingHandler, route, expandPageHandler }) => {
 };
 
 export default About;
-  

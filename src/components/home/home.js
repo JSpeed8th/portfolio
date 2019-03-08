@@ -13,7 +13,7 @@ const Home = ({changeRoutingHandler, route}) => {
     style = {style}
     onClick = {() => changeRoutingHandler('Home')}
     >
-      <SocialMedia />
+      <SocialMedia route = {route} passedRoute = 'Home'/>
         <h1 className="page-title">Home</h1>
         <MyName route = {route}/>
     </div>
