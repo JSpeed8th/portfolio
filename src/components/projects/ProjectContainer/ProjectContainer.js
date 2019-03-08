@@ -72,7 +72,7 @@ const ProjectContainer = ({ route }) => {
 	};
 	route === 'Projects' ? style.animationName = 'appear-and-slide-up' : style.display = 'none';
 	return (
-		<div className="project-container" style = {style}>
+		<div className="project-container center" style = {style}>
 			{videoArray}
 		</div>
 		)

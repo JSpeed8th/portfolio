@@ -2,18 +2,19 @@
 	display: flex;
 	margin: 0 auto;
 	flex-wrap: wrap;
+	align-items: center;
 	justify-content:center;
 	border-radius: 5px;
 	border: 2px solid white;
 	width: 74vw;
 	padding: 5px 0px;
-	max-height: 70vh;
-	overflow: auto;
-	margin-top: 14vh;
+	height: 60vh;
+	overflow: scroll;
+	/* margin-top: 14vh; */
 }
 
 .skill-modal img {
-  height: 25vh;
+  height: 26vh;
   min-width: 200px;
   width: 18vw;
   margin: 2px;
