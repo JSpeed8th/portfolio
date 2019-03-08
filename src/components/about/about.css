@@ -8,7 +8,7 @@
   width: 40vw;
   padding: 0px 15px;
   padding-top: 25px;
-  margin-top: 5vh;
+  margin-top: 8vh;
   margin-left: 5vw;
   border-radius: 10px;
   cursor: default;
@@ -30,14 +30,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 2;
-  font-size: 1.65vw;
+  font-size: 1.3vw;
   text-align: center;
   font-weight: bolder;
 }
 
 @media only screen and (min-width: 800px) and (max-width: 950px) {
   .about-modal {
-    margin-top: 13vh;
+    margin-top: 15vh;
   }
 }
 
@@ -49,7 +49,6 @@
   .about-modal {
     display: block;
     margin: 0 auto;
-    /* margin-top: 12vh; */
     width: 51vw;
   }
 
