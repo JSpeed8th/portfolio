@@ -5,9 +5,9 @@
 .about-modal {
   background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), black);
   width: 40vw;
-  height: 52vh;
+  height: 45vh;
   padding: 0px 15px;
-  /* padding-top: 7.5vh; */
+  padding-top: 25px;
   margin-left: 5vw;
   border-radius: 10px;
   cursor: default;
@@ -28,9 +28,9 @@
   background: -webkit-linear-gradient(#3c4f64, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 2.5;
-  font-size: 1.5vw;
-  text-align: justify;
+  line-height: 2.6;
+  font-size: 1.65vw;
+  text-align: center;
   font-weight: bolder;
 }
 
