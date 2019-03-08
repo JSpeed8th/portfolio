@@ -21,29 +21,8 @@ ion-icon:hover {
 .icons {
   display: flex;
   justify-content: center;
+  margin-bottom: 5vh;
   /* border: 1px solid gold; */
   padding-top: 10px;
   /* width: 19vw; */
-}
-
-/* Mobile Responsive */
-
-/* ----------- iPad Pro 10.5" ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
-  .icons ion-icon {
-    opacity: 1;
-    /* color: red; */
-  }
-}
-
-/* ----------- iPad Pro 12.9" ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
-  .icons ion-icon {
-    opacity: 1;
-    /* color: yellow; */
-  }
 }
