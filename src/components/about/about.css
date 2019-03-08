@@ -41,7 +41,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
   .about-modal p {
     font-size: 13px;
@@ -49,7 +49,7 @@
   .about-modal {
     display: block;
     margin: 0 auto;
-    margin-top: 14vh;
+    /* margin-top: 12vh; */
     width: 51vw;
   }
 
