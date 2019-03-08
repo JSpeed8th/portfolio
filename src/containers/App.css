@@ -1,4 +1,4 @@
-body {
+\body {
  font-family: "Raleway", sans-serif;
  background-image: url("../assets/images/home.jpg");
  background-repeat: no-repeat;
@@ -11,6 +11,7 @@ body {
  float: right;
  transition: 0.4s;
  overflow: hidden;
+ height: 100vh
 }
 
 @keyframes appear-and-slide-up {
