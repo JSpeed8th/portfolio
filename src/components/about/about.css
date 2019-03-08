@@ -42,6 +42,7 @@
   .about-modal {
     display: block;
     margin: 0 auto;
-    margin-top: 6vh;
+    margin-top: 15vh;
+    width: 51vw;
   }
 }
