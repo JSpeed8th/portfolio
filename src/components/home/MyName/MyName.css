@@ -13,3 +13,9 @@
   letter-spacing: 11px;
   color: #3c4f64;
 }
+
+@media only screen and (max-width: 700px) {
+  .home-title {
+    font-size: 13px;
+  }
+}

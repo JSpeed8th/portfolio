@@ -1,4 +1,4 @@
-\body {
+body {
  font-family: "Raleway", sans-serif;
  background-image: url("../assets/images/home.jpg");
  background-repeat: no-repeat;
@@ -54,4 +54,15 @@
  background-repeat: no-repeat;
  background-position: center;
  height: 100vh;
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .view {
+      height: 80vh;
+    }
 }
