@@ -4,7 +4,7 @@
 
 .about-modal {
   display: inline-block;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), black);
   width: 40vw;
   padding: 0px 15px;
   padding-top: 25px;
@@ -38,11 +38,15 @@
 
   .about-modal p {
     font-size: 13px;
+    background: -webkit-linear-gradient(#3c4f64,#3c4f64);
+    -webkit-background-clip: text;
   }
   .about-modal {
     display: block;
     margin: 0 auto;
-    margin-top: 15vh;
+    margin-top: 14vh;
     width: 51vw;
+      background: linear-gradient(white,rgba(255, 255, 255, 0.3));
   }
+
 }
