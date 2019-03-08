@@ -15,7 +15,7 @@ class App extends Component {
   changeRoutingHandler = (routeName) => this.setState({ route: routeName });
 
   expandPageHandler = (routeName, style) => {
-    if (routeName === this.state.route) style.width = '87.5vw'
+    if (routeName === this.state.route) style.width = '85vw'
   }
 
   render() {
