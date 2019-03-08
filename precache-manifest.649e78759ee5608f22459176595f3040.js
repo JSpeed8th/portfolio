@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/contact.884a7583.jpg"
   },
   {
-    "revision": "09c4c10b863007d65e67",
-    "url": "/portfolio/static/css/main.ba5904ad.chunk.css"
+    "revision": "6f7ddd237a21dc6bbca6",
+    "url": "/portfolio/static/css/main.5c390b1a.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/projects.31a3f133.jpg"
   },
   {
-    "revision": "09c4c10b863007d65e67",
-    "url": "/portfolio/static/js/main.09c4c10b.chunk.js"
+    "revision": "6f7ddd237a21dc6bbca6",
+    "url": "/portfolio/static/js/main.6f7ddd23.chunk.js"
   },
   {
     "revision": "66657f5dc34703daceb62cb80cf2f7d4",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/sass-logo.493c53b4.jpg"
   },
   {
-    "revision": "5676a3baf3142e997082d558e2770052",
+    "revision": "7c8852621ed60b65e08cf4088575ff32",
     "url": "/portfolio/index.html"
   }
 ];
