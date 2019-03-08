@@ -42,10 +42,10 @@ const SkillContainer = ({ route }) => {
   	});
 
 	const style = {};
-	route === 'Skills' ? style.display = 'flex' : style.display = 'none';
+	route === 'Skills' ? style.animationName = 'appear-and-slide-up' : style.display = 'none';
 
 	return (
-		<div className="skill-modal" style = {style}>
+		<div className="skill-modal slide-duration" style = {style}>
           {newArray}
         </div>
 		)
