@@ -11,7 +11,7 @@
   transform: translateY(-50%);
   justify-content: center;
   align-items: center;
-  background: linear-gradient(white,rgba(255, 255, 255, 0.3));
+  background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
   width: 40vw;
   padding: 15px;
   height: 40vh;
@@ -45,7 +45,7 @@
     font-size: 12px;
   }
   .about-modal {
-    width: 60vw;
+    width: 68vw;
     margin: 0;
     left: 50%;
     transform: translate(-50%, -50%);
