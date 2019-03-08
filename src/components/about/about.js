@@ -12,7 +12,7 @@ const About = ({ changeRoutingHandler, route, expandPageHandler }) => {
 
   expandPageHandler('About', style);
 
-  route === 'About' ? modalStyle.transition = 'inline-block' : modalStyle.display = 'none';
+  route === 'About' ? modalStyle.animationName = 'appear-and-slide-up' : modalStyle.display = 'none';
 
   return (
     <div className="about view"
@@ -25,7 +25,7 @@ const About = ({ changeRoutingHandler, route, expandPageHandler }) => {
       >
         <SocialMedia route = {route} passedRoute = 'About'/>
         <h1 className="page-title">About</h1>
-        <div className="about-modal" style = {modalStyle}>
+        <div className="about-modal slide-duration" style = {modalStyle}>
           <Paragraph />
         </div>
       </div>
