@@ -14,9 +14,9 @@
   background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
   width: 40vw;
   padding: 15px;
-  height: 40vh;
+  height: 50vh;
   border-radius: 10px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .about-modal img {
