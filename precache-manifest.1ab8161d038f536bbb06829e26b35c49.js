@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "884a75835e668e1f5b19a985d4e14871",
-    "url": "/portfolio/static/media/contact.884a7583.jpg"
+    "revision": "b9ee334a734bc9a6b10ba628038a7c18",
+    "url": "/portfolio/static/media/contact.b9ee334a.jpg"
   },
   {
-    "revision": "b209aa6005c3fab3ff35",
-    "url": "/portfolio/static/css/main.08cf49f0.chunk.css"
+    "revision": "0c53a64f4df2cbb6b9e5",
+    "url": "/portfolio/static/css/main.9231aec9.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/2.cf2ec669.chunk.js"
   },
   {
-    "revision": "eb36817db1c652e7d88381c5de02e83c",
-    "url": "/portfolio/static/media/home.eb36817d.jpg"
+    "revision": "024b853eab3456b96a39d9ef3cc5efff",
+    "url": "/portfolio/static/media/home.024b853e.jpg"
   },
   {
-    "revision": "fb3a4c3161d3e7c593c2f55cd87326ba",
-    "url": "/portfolio/static/media/about.fb3a4c31.jpg"
+    "revision": "dcb3cfade0f7f424d169c81290812ade",
+    "url": "/portfolio/static/media/about.dcb3cfad.jpg"
   },
   {
     "revision": "b6dc5042b75bcc556ceaf4c3451c09ac",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/smart-brain.dcea27e5.mov"
   },
   {
-    "revision": "31a3f133ae66e00ab26970763f065768",
-    "url": "/portfolio/static/media/projects.31a3f133.jpg"
+    "revision": "a23c2abac274fd9b7516fbaf5587cd24",
+    "url": "/portfolio/static/media/projects.a23c2aba.jpg"
   },
   {
-    "revision": "b209aa6005c3fab3ff35",
-    "url": "/portfolio/static/js/main.b209aa60.chunk.js"
+    "revision": "0c53a64f4df2cbb6b9e5",
+    "url": "/portfolio/static/js/main.0c53a64f.chunk.js"
   },
   {
     "revision": "66657f5dc34703daceb62cb80cf2f7d4",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/sass-logo.493c53b4.jpg"
   },
   {
-    "revision": "4594911564f496f23a85176b55af76fb",
+    "revision": "3c111b283ce8344aa2fc3d0162b091e5",
     "url": "/portfolio/index.html"
   }
 ];
