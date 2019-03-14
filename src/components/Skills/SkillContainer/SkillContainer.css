@@ -9,14 +9,13 @@
 	width: 74vw;
 	padding: 5px 0px;
 	height: 60vh;
-	overflow: scroll;
+	overflow: auto;
 	/* margin-top: 14vh; */
 }
 
 .skill-modal img {
   height: 26vh;
-  min-width: 200px;
-  width: 18vw;
+  width: 18.1vw;
   margin: 2px;
   border-radius: 5px;
   transition: all .5s;
