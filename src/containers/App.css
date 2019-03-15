@@ -51,9 +51,8 @@ body {
  transform: rotate(270deg);
  /* text-align: left; */
  float: left;
- width: 7vw;
+ width: 5vw;
  margin-top: 75px;
- margin-left: -1vw;
  transition: 0.2s;
  color: white;
 }
