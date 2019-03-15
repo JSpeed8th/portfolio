@@ -3,7 +3,7 @@ import React from 'react';
 const Paragraph = () => {
 	return (
 		<p>
-			Hi. I'm Jordan, a software developer from Philadephia, PA.
+			Hello World! I'm Jordan, a software developer from Philadephia, PA.
 			I'm passionate about building software that impacts people's lives.
 			I love problem solving and believe that every problem has a solution!
 			My graphic arts background influences the cool designs you see today.
