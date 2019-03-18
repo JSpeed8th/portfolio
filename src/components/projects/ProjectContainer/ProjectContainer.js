@@ -34,7 +34,7 @@ const ProjectContainer = ({ route }) => {
 	    },
 	    {
 	      path: tastebudsRecording,
-	      github: "https://github.com/JSpeed8th/Pokemon-Group-Gym",
+	      github: "https://github.com/JSpeed8th/Rumblr",
 	      livelink: "https://jordansrumblr.herokuapp.com ",
 	      title: "Taste Buds",
 	      description:
